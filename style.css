@@ -1,0 +1,14 @@
+#gameboard {
+    margin: 60px auto;
+    border-collapse: collapse;
+}
+#gameboard td {
+
+    border: solid 1px black;
+    width: 9px;
+    height: 9px;
+}
+
+.snake {
+    backbround-color: black;
+}
