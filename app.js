@@ -28,3 +28,6 @@ gameBarDiv.appendChild(gameBoardTable);
 
 
 console.log(gameBoard)
+
+
+
