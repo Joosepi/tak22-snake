@@ -26,4 +26,5 @@ gameBoard.forEach((row, y) => {
 gameBarDiv.appendChild(gameBoardTable);
 
 
+
 console.log(gameBoard)
