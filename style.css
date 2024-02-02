@@ -32,7 +32,7 @@ body {
     top: 10px;
     left: 50%;
     transform: translateX(-50%);
-    font-size: 24px; /* Increased font size */
+    font-size: 40px; 
 }
 
 .snake {
