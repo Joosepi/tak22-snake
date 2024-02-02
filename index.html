@@ -4,10 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Snake</title>
+    <title>Snake Game</title>
 </head>
 <body>
-    <table id="gameboard"></table>
+    <div id="container">
+        <div id="gameboard-container">
+            <table id="gameboard"></table>
+            <div id="message" class="centered hidden">
+                <div id="game-over-message" class="hidden">Game Over</div>
+                <button id="restart-button" class="hidden">Restart</button>
+            </div>
+        </div>
+    </div>
+    <div id="score">Score: 0</div>
     <script src="app.js"></script>
 </body>
 </html>
